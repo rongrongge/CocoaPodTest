@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "JRViewController.h"
 
 FOUNDATION_EXPORT double CocoaPodTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char CocoaPodTestVersionString[];

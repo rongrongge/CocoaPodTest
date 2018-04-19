@@ -1,11 +1,16 @@
 use_frameworks!
 
+source 'https://github.com/rongrongge/CocoaPodSpecManager.git'
+
 target 'CocoaPodTest_Example' do
-  pod 'CocoaPodTest', :path => '../'
+#  pod 'CocoaPodTest', :path => '../'
+#
+#  target 'CocoaPodTest_Tests' do
+#    inherit! :search_paths
+#
+#
+#  end
 
-  target 'CocoaPodTest_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'CocoaPodTest' ,'~> 0.1.0'
+  
 end
