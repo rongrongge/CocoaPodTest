@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1A2ACFF7B8C2AAEB6525388D036577CA /* Pods-CocoaPodTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20268FC483611559AD97FD0D465F52B2 /* Pods-CocoaPodTest_Tests-dummy.m */; };
+		2A12AC2AB4AC781D298803F4110919C2 /* JRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 996F4F3B880440E7A8344010355B7E84 /* JRViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30D382597274CB7FFC2A4E7C74250131 /* Pods-CocoaPodTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 898D74C079C04285B172FCA015E5306F /* Pods-CocoaPodTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B6C463BA0D6370E8F20BA4E1B5C91E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7D3E0F4DE8BFCF479C896625860A66EB /* Pods-CocoaPodTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F326EFD90669BE4BA21463942A01C9D7 /* Pods-CocoaPodTest_Example-dummy.m */; };
-		923A66073C51C4AF073A128EF7D57571 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F7ECD5692A9DD6819FE6B3B92FBF8C /* ReplaceMe.m */; };
-		B2B9CBEBDD55C87A26D3AF2B56E1E984 /* CocoaPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 014210DD584D57C95E4FEB0D1BCC7CBB /* CocoaPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C94D3594CAF6F9E8AD7B8B4DD8F82CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8C27537F6CFBDC98C9576763519017F7 /* CocoaPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA0B0FB5E5BA3139794F01E292B00A /* CocoaPodTest-dummy.m */; };
+		8EE9A3AE1EC256320C37C5257E2F56F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CFD9D78FC9F398344D5A170F3E80853C /* Pods-CocoaPodTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A211C4D5FDE513F1648159AA4BE7C99B /* Pods-CocoaPodTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D841CDC62B0D0AA7FEC185766B905F4D /* CocoaPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 435CFC56BD5F0B1E1689527845CA6DA8 /* CocoaPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA405EFE8AA5842D9A5398446D0A469F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F72ED8BCFC5C17CE39CDA5BFFC6D3B0A /* CocoaPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7CFCA40CBE948CF1A09B66C90E9777 /* CocoaPodTest-dummy.m */; };
+		DF3E94D25C0D90006CDAFB2AABF652FD /* JRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D47517A2A9B42C4D9DBFB0ECFD5D8E /* JRViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,47 +25,48 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2D6D0496E4811B8E323D9399EC6B5539;
+			remoteGlobalIDString = 9547FC4192BEB0C2B40A8CB7C6711C34;
 			remoteInfo = CocoaPodTest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014210DD584D57C95E4FEB0D1BCC7CBB /* CocoaPodTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaPodTest-umbrella.h"; sourceTree = "<group>"; };
-		01E19CB12CE2AA692C871923352EFC4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0A914DD00BB78F534B21E9DA5019DD95 /* Pods_CocoaPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CocoaPodTest_Tests.framework; path = "Pods-CocoaPodTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED283F9D5E161D2D185F25E8098F020 /* CocoaPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaPodTest.modulemap; sourceTree = "<group>"; };
+		129A88D182880FDB735E66B1B2A4BE85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		20268FC483611559AD97FD0D465F52B2 /* Pods-CocoaPodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaPodTest_Tests-dummy.m"; sourceTree = "<group>"; };
+		2448513CE0268ACDB7F08848B38BD7FD /* CocoaPodTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaPodTest.xcconfig; sourceTree = "<group>"; };
 		26D3482959E1C0226D7720DDAE2A83E7 /* Pods-CocoaPodTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaPodTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2CF1056C050435F037E838A74B55FF3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F60186DDB9B6B355188CEA0E02A17C2 /* CocoaPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaPodTest.modulemap; sourceTree = "<group>"; };
-		46F7ECD5692A9DD6819FE6B3B92FBF8C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CocoaPodTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		435CFC56BD5F0B1E1689527845CA6DA8 /* CocoaPodTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaPodTest-umbrella.h"; sourceTree = "<group>"; };
 		46FFB0BA4992ED50FA475077E68A6E4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E0CE61D6A1533958AAC487F5685F2F /* CocoaPodTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaPodTest-prefix.pch"; sourceTree = "<group>"; };
 		53A8897E4DC77B5B908F5120F1A0A942 /* Pods-CocoaPodTest_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPodTest_Example-resources.sh"; sourceTree = "<group>"; };
-		56F84E15690281BC0A18A4A75D8B22B4 /* CocoaPodTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaPodTest.xcconfig; sourceTree = "<group>"; };
-		5B264D46EA9D6D2BDBE510FFEE330FAB /* CocoaPodTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaPodTest-prefix.pch"; sourceTree = "<group>"; };
 		5F7753302400D8642B1D0D37290421D6 /* Pods-CocoaPodTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		63D47517A2A9B42C4D9DBFB0ECFD5D8E /* JRViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JRViewController.m; path = CocoaPodTest/Classes/JRViewController.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		772AEC9556F0ED463412432CDF97E4F8 /* CocoaPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CocoaPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8196BA3599B94879C7909E86933D2264 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB13D89A3740077558387EA8800FFE2 /* CocoaPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CocoaPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82AA0B0FB5E5BA3139794F01E292B00A /* CocoaPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaPodTest-dummy.m"; sourceTree = "<group>"; };
 		858FCA60AE361F69F54104BBD50B3CDB /* Pods_CocoaPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CocoaPodTest_Example.framework; path = "Pods-CocoaPodTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		898D74C079C04285B172FCA015E5306F /* Pods-CocoaPodTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaPodTest_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8CFCD36BECC00BF6949D058C5346F67F /* Pods-CocoaPodTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaPodTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8D5DDF4CF3275BCF9AED2099E0BA3EF4 /* Pods-CocoaPodTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPodTest_Tests-resources.sh"; sourceTree = "<group>"; };
 		92172B7DB339A525E6C787749ABFCA19 /* Pods-CocoaPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		996F4F3B880440E7A8344010355B7E84 /* JRViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JRViewController.h; path = CocoaPodTest/Classes/JRViewController.h; sourceTree = "<group>"; };
+		9B90A0D782F84B5BA25D384AA3739A45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A211C4D5FDE513F1648159AA4BE7C99B /* Pods-CocoaPodTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaPodTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		A534E51EA0E338613C5DBEC22EC4298A /* Pods-CocoaPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B27B23BC498CDC8AC5274BDC8B6001B2 /* Pods-CocoaPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B495171E55451DA02B77B5CEFA0FDAA7 /* Pods-CocoaPodTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaPodTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B52A5AC52D88B75A00FB6B6CDB3E82A0 /* Pods-CocoaPodTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPodTest_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CB50903D32258C771A3726F4CAB6A21C /* Pods-CocoaPodTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CocoaPodTest_Example.modulemap"; sourceTree = "<group>"; };
-		CEFA123DCF461258839E418F211CC9C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DC7CFCA40CBE948CF1A09B66C90E9777 /* CocoaPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaPodTest-dummy.m"; sourceTree = "<group>"; };
 		E0CC72AC2EBE418BCE0AF90F5D87B6B5 /* CocoaPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaPodTest.framework; path = CocoaPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E259A4E1513950FD67D1EED4A4CB547F /* Pods-CocoaPodTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CocoaPodTest_Tests.modulemap"; sourceTree = "<group>"; };
 		EC8ED7C9B8379650D6F48709AFAD216E /* Pods-CocoaPodTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPodTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F2FA76634003692BAB8B58216E8BC012 /* Pods-CocoaPodTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaPodTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F326EFD90669BE4BA21463942A01C9D7 /* Pods-CocoaPodTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaPodTest_Example-dummy.m"; sourceTree = "<group>"; };
+		F80185C11A2CE0DAE524737632642A26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D6B719349CF542F6BC60BE13A61BF06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE9A3AE1EC256320C37C5257E2F56F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BB6304C33D074BCC64CDC136183596A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,29 +94,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6B5A2772C100679CF0E2740AD32B0C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C94D3594CAF6F9E8AD7B8B4DD8F82CC7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31A8E84755BF77E2A160BECBEE46417C /* Support Files */ = {
+		220222B706E64A86FA2CEE2FF16BCDAD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F60186DDB9B6B355188CEA0E02A17C2 /* CocoaPodTest.modulemap */,
-				56F84E15690281BC0A18A4A75D8B22B4 /* CocoaPodTest.xcconfig */,
-				DC7CFCA40CBE948CF1A09B66C90E9777 /* CocoaPodTest-dummy.m */,
-				5B264D46EA9D6D2BDBE510FFEE330FAB /* CocoaPodTest-prefix.pch */,
-				014210DD584D57C95E4FEB0D1BCC7CBB /* CocoaPodTest-umbrella.h */,
-				8196BA3599B94879C7909E86933D2264 /* Info.plist */,
+				0ED283F9D5E161D2D185F25E8098F020 /* CocoaPodTest.modulemap */,
+				2448513CE0268ACDB7F08848B38BD7FD /* CocoaPodTest.xcconfig */,
+				82AA0B0FB5E5BA3139794F01E292B00A /* CocoaPodTest-dummy.m */,
+				52E0CE61D6A1533958AAC487F5685F2F /* CocoaPodTest-prefix.pch */,
+				435CFC56BD5F0B1E1689527845CA6DA8 /* CocoaPodTest-umbrella.h */,
+				9B90A0D782F84B5BA25D384AA3739A45 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CocoaPodTest";
+			sourceTree = "<group>";
+		};
+		2F0E4A6649557CBAB98846F4EA3BA36A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				637DD8375C9F5625370AFC46374C3D26 /* CocoaPodTest */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		6374BFA120B61BEC382F08EC49BE7BD0 /* Pods-CocoaPodTest_Tests */ = {
@@ -127,11 +137,23 @@
 			path = "Target Support Files/Pods-CocoaPodTest_Tests";
 			sourceTree = "<group>";
 		};
+		637DD8375C9F5625370AFC46374C3D26 /* CocoaPodTest */ = {
+			isa = PBXGroup;
+			children = (
+				996F4F3B880440E7A8344010355B7E84 /* JRViewController.h */,
+				63D47517A2A9B42C4D9DBFB0ECFD5D8E /* JRViewController.m */,
+				F75E2D5602655DBADE0750DFE63E2AB0 /* Pod */,
+				220222B706E64A86FA2CEE2FF16BCDAD /* Support Files */,
+			);
+			name = CocoaPodTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FEE1253AB2CBDD318F81E92AB8FD9F68 /* Development Pods */,
+				2F0E4A6649557CBAB98846F4EA3BA36A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				86C991A81EC238097DFC492F9CF000D4 /* Products */,
 				A96A849529F4AE75375887F7F654FE45 /* Targets Support Files */,
@@ -146,16 +168,6 @@
 				0A914DD00BB78F534B21E9DA5019DD95 /* Pods_CocoaPodTest_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8F8AB3B6F6663DE98922E5FA8B4F4E2B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				772AEC9556F0ED463412432CDF97E4F8 /* CocoaPodTest.podspec */,
-				CEFA123DCF461258839E418F211CC9C4 /* LICENSE */,
-				01E19CB12CE2AA692C871923352EFC4F /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		A96A849529F4AE75375887F7F654FE45 /* Targets Support Files */ = {
@@ -193,17 +205,6 @@
 			path = "Target Support Files/Pods-CocoaPodTest_Example";
 			sourceTree = "<group>";
 		};
-		C8ADE3CDE3879F876564CC00D2B03BD3 /* CocoaPodTest */ = {
-			isa = PBXGroup;
-			children = (
-				46F7ECD5692A9DD6819FE6B3B92FBF8C /* ReplaceMe.m */,
-				8F8AB3B6F6663DE98922E5FA8B4F4E2B /* Pod */,
-				31A8E84755BF77E2A160BECBEE46417C /* Support Files */,
-			);
-			name = CocoaPodTest;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,12 +213,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FEE1253AB2CBDD318F81E92AB8FD9F68 /* Development Pods */ = {
+		F75E2D5602655DBADE0750DFE63E2AB0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C8ADE3CDE3879F876564CC00D2B03BD3 /* CocoaPodTest */,
+				7FB13D89A3740077558387EA8800FFE2 /* CocoaPodTest.podspec */,
+				129A88D182880FDB735E66B1B2A4BE85 /* LICENSE */,
+				F80185C11A2CE0DAE524737632642A26 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,34 +242,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEF963757CFE65139200F4CBAB15F51C /* Headers */ = {
+		FF2FF7234A6966E31A13D2CEE1C384D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B9CBEBDD55C87A26D3AF2B56E1E984 /* CocoaPodTest-umbrella.h in Headers */,
+				D841CDC62B0D0AA7FEC185766B905F4D /* CocoaPodTest-umbrella.h in Headers */,
+				2A12AC2AB4AC781D298803F4110919C2 /* JRViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2D6D0496E4811B8E323D9399EC6B5539 /* CocoaPodTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE20AC2E56488E43C241B4270212293D /* Build configuration list for PBXNativeTarget "CocoaPodTest" */;
-			buildPhases = (
-				49014D88E1FD616DEFC4A3F6E54EA039 /* Sources */,
-				F6B5A2772C100679CF0E2740AD32B0C7 /* Frameworks */,
-				EEF963757CFE65139200F4CBAB15F51C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CocoaPodTest;
-			productName = CocoaPodTest;
-			productReference = E0CC72AC2EBE418BCE0AF90F5D87B6B5 /* CocoaPodTest.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8E3209A42A6730B62E1CDE3DC3950436 /* Pods-CocoaPodTest_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A9E6A75A30A86008E5287A07BD0284B /* Build configuration list for PBXNativeTarget "Pods-CocoaPodTest_Example" */;
@@ -283,6 +270,23 @@
 			name = "Pods-CocoaPodTest_Example";
 			productName = "Pods-CocoaPodTest_Example";
 			productReference = 858FCA60AE361F69F54104BBD50B3CDB /* Pods_CocoaPodTest_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9547FC4192BEB0C2B40A8CB7C6711C34 /* CocoaPodTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE2093E93582C5B4CAAC236282AB01E /* Build configuration list for PBXNativeTarget "CocoaPodTest" */;
+			buildPhases = (
+				E90D24D2D1FC5496015C33245504AEC8 /* Sources */,
+				6D6B719349CF542F6BC60BE13A61BF06 /* Frameworks */,
+				FF2FF7234A6966E31A13D2CEE1C384D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaPodTest;
+			productName = CocoaPodTest;
+			productReference = E0CC72AC2EBE418BCE0AF90F5D87B6B5 /* CocoaPodTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B8FB5B5A95A9E5F8C72C18A25E054964 /* Pods-CocoaPodTest_Tests */ = {
@@ -323,7 +327,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D6D0496E4811B8E323D9399EC6B5539 /* CocoaPodTest */,
+				9547FC4192BEB0C2B40A8CB7C6711C34 /* CocoaPodTest */,
 				8E3209A42A6730B62E1CDE3DC3950436 /* Pods-CocoaPodTest_Example */,
 				B8FB5B5A95A9E5F8C72C18A25E054964 /* Pods-CocoaPodTest_Tests */,
 			);
@@ -339,20 +343,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49014D88E1FD616DEFC4A3F6E54EA039 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F72ED8BCFC5C17CE39CDA5BFFC6D3B0A /* CocoaPodTest-dummy.m in Sources */,
-				923A66073C51C4AF073A128EF7D57571 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BEB86BC0FF5BA740BDC95E51BC12367F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7D3E0F4DE8BFCF479C896625860A66EB /* Pods-CocoaPodTest_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90D24D2D1FC5496015C33245504AEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C27537F6CFBDC98C9576763519017F7 /* CocoaPodTest-dummy.m in Sources */,
+				DF3E94D25C0D90006CDAFB2AABF652FD /* JRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +366,7 @@
 		0D3E61CD46F1BA8E143E73B7ABCB2825 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaPodTest;
-			target = 2D6D0496E4811B8E323D9399EC6B5539 /* CocoaPodTest */;
+			target = 9547FC4192BEB0C2B40A8CB7C6711C34 /* CocoaPodTest */;
 			targetProxy = 2F669FAA536A99DAC4BAA42A61EBCC4C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -394,6 +398,36 @@
 				PRODUCT_NAME = Pods_CocoaPodTest_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11440A27F7B54708217E623ACB8AFB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2448513CE0268ACDB7F08848B38BD7FD /* CocoaPodTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaPodTest/CocoaPodTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaPodTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaPodTest/CocoaPodTest.modulemap";
+				PRODUCT_NAME = CocoaPodTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -549,9 +583,9 @@
 			};
 			name = Release;
 		};
-		7788681F91E66065698FA981F683AD28 /* Debug */ = {
+		9404355F2B7309E03368310A089F5F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56F84E15690281BC0A18A4A75D8B22B4 /* CocoaPodTest.xcconfig */;
+			baseConfigurationReference = 2448513CE0268ACDB7F08848B38BD7FD /* CocoaPodTest.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -642,36 +676,6 @@
 			};
 			name = Debug;
 		};
-		F71934400771C9582442126B0B4A74EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56F84E15690281BC0A18A4A75D8B22B4 /* CocoaPodTest.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaPodTest/CocoaPodTest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaPodTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoaPodTest/CocoaPodTest.modulemap";
-				PRODUCT_NAME = CocoaPodTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -693,20 +697,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3DE2093E93582C5B4CAAC236282AB01E /* Build configuration list for PBXNativeTarget "CocoaPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9404355F2B7309E03368310A089F5F46 /* Debug */,
+				11440A27F7B54708217E623ACB8AFB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9A9E6A75A30A86008E5287A07BD0284B /* Build configuration list for PBXNativeTarget "Pods-CocoaPodTest_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C62B07CB76F62EF1AF3FCD6B3763278A /* Debug */,
 				088AFC4BF8E3DA3B84A87757CAE6917E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE20AC2E56488E43C241B4270212293D /* Build configuration list for PBXNativeTarget "CocoaPodTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7788681F91E66065698FA981F683AD28 /* Debug */,
-				F71934400771C9582442126B0B4A74EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
